@@ -83,11 +83,6 @@ body{
   padding-top:15px;
 }
 
-#content, #content-planning{
-  margin-top:12px;
-  background:url("images/anneau.png") repeat-x center top;
-}
-
 .td_postes {
   font-family:Arial;
   font-weight:bold;
@@ -249,4 +244,17 @@ td.td_obligatoire a, td.td_renfort a{
 
 .cellule_grise,.tr1, .animation td.cellule_grise {
   background: #DDD;
+}
+
+@media screen {
+    #content, #content-planning{
+        margin-top:12px;
+        background:url("images/anneau.png") repeat-x center top;
+    }
+}
+
+@media print {
+    #content-planning .tableauStandard {
+        display: none;
+    }
 }
