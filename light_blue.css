@@ -1,12 +1,10 @@
 /**
-Planning Biblio, Version 2.3
+Planning Biblio
 Licence GNU/GPL (version 2 et au dela)
 Voir les fichiers README.txt et COPYING.txt
-@copyright -2018 Jérôme Combes
+@copyright -2018-2019 Jérôme Combes
 
-Fichier : themes/compiegne/compiegne.css
-Création : 22 mars 2016
-Dernière modification : 12 avril 2016
+Fichier : themes/light_blue/light_blue.css
 @author Jérôme Combes <jerome@planningbiblio.fr>
 
 Description :
@@ -19,12 +17,12 @@ Incluse dans les fichiers include/header.php et setup/header.php
  * Red : #EF3340
  * Grey : #333
  * White : #FFFFFF
- * bleu pour Saint-Corneille et le cellier : #009dd9 / pâle : #ccecf8 / texte : #0f6fc6 
- * rouge pour Mourichon : #644946 / pâle : #ebd5d3 / texte : #d34717
- * version 2 : rouge mourichon c1322a
- * jaune pour Bellicart : #d7af0d / pâle : #efe0a3 / texte : 
- * version 2 : jaune Bellicart : d7c942 / 
- * jaune pour Bellicart 
+ * bleu : #009dd9 / pâle : #ccecf8 / texte : #0f6fc6 
+ * rouge : #644946 / pâle : #ebd5d3 / texte : #d34717
+ * version 2 : rouge rouge c1322a
+ * jaune : #d7af0d / pâle : #efe0a3 / texte : 
+ * version 2 : jaune : d7c942 / 
+ * jaune
  * général bleu : 2da2bf , abdae6 , d5edf3
  * général rouge : da1f27
  */
@@ -154,9 +152,9 @@ td.menu_td{
 
 
 /*
- * bleu pour Saint-Corneille et le cellier : #009dd9 / pâle : #ccecf8 / texte : #0f6fc6
- * rouge pour Mourichon : #644946 / pâle : #ebd5d3 / texte : #d34717
- * jaune pour Bellicart : #d7c942 / pâle : #efe0a3 / texte : 
+ * bleu : #009dd9 / pâle : #ccecf8 / texte : #0f6fc6
+ * rouge : #644946 / pâle : #ebd5d3 / texte : #d34717
+ * jaune  : #d7c942 / pâle : #efe0a3 / texte : 
  */
 
 .cellSpan{
@@ -172,19 +170,19 @@ td.menu_td{
   font-size: 1.6em;
 }
 
-.corneille.animation td{
+.bleu.animation td{
   background: #daf0f8;
   border-top: outset 1px #009dd9;
   border-bottom: outset 1px #009dd9;
 }
 
-.bellicart.animation td{
+.jaune.animation td{
   background: #efead7; 
   border-top: outset 1px #d7c942;
   border-bottom: outset 1px #d7c942;
 }
 
-.mourichon.animation td{
+.rouge.animation td{
   background: #f8dbda;
   border-top: outset 1px #c1322a;
   border-bottom: outset 1px #c1322a;
@@ -204,36 +202,58 @@ td.td_obligatoire a, td.td_renfort a{
   color: #000;
 }
 
-/* Saint-Corneille */
-.corneille.tr_horaires, .corneille.tr_separation, .corneille.tr_horaires td.td_postes{
+/* Bleu */
+.bleu.tr_horaires, .bleu.tr_separation, .bleu.tr_horaires td.td_postes{
   background: #009DD9;
   color: #000;
 }
 
-.corneille td.td_postes{
+.bleu td.td_postes{
   background: #CCECF8; 
   color: #000;
 }
 
-/* Bellicart */
-.bellicart.tr_horaires, .bellicart.tr_separation, .bellicart.tr_horaires td.td_postes{
+/* Jazune */
+.jaune.tr_horaires, .jaune.tr_separation, .jaune.tr_horaires td.td_postes{
   background: #d7c942;
   color: #000;
 }
 
-.bellicart td.td_postes{
+.jaune td.td_postes{
   background: #efe0a3; 
   color: #000;
 }
 
-/* Mourichon */
-.mourichon.tr_horaires, .mourichon.tr_separation, .mourichon.tr_horaires td.td_postes{
+/* Rouge */
+.rouge.tr_horaires, .rouge.tr_separation, .rouge.tr_horaires td.td_postes{
   background: #c1322a;
   color: #FFF;
 }
 
-.mourichon td.td_postes{
+.rouge td.td_postes{
   background: #eacac9; 
+  color: #000;
+}
+
+/* Violet */
+.violet.tr_horaires, .violet.tr_separation, .violet.tr_horaires td.td_postes{
+  background: purple;
+  color: #FFF;
+}
+
+.violet td.td_postes{
+  background: #E3D8F7; 
+  color: #000;
+}
+
+/* Vert */
+.vert.tr_horaires, .vert.tr_separation, .vert.tr_horaires td.td_postes{
+  background: #09B528;
+  color: #FFF;
+}
+
+.vert td.td_postes{
+  background: #BFEEC8; 
   color: #000;
 }
 
