@@ -278,3 +278,7 @@ td.td_obligatoire a, td.td_renfort a{
         display: none;
     }
 }
+
+.statut_renfort_contractuel {
+	background: #FBEAF5;
+}
