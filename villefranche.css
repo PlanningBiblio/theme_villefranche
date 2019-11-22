@@ -282,3 +282,7 @@ td.td_obligatoire a, td.td_renfort a{
 .statut_renfort_contractuel {
 	background: #FBEAF5;
 }
+
+.bg-yellow {
+	background: transparent;
+}
